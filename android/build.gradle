@@ -33,7 +33,7 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     kotlinOptions {
-        jvmTarget = rootProject.ext.kotlinJvmTarget
+        jvmTarget = '17'
     }
 
     sourceSets {
